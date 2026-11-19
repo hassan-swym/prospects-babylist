@@ -1,0 +1,89 @@
+name: Score stores
+
+on:
+  workflow_dispatch:
+    inputs:
+      shards:
+        description: Parallel jobs
+        default: "6"
+      limit:
+        description: Max stores per job (0 = all)
+        default: "0"
+
+permissions:
+  contents: write
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      list: ${{ steps.p.outputs.list }}
+    steps:
+      - id: p
+        run: echo "list=$(python3 -c 'import json;print(json.dumps(list(range(${{ inputs.shards }}))))')" >> "$GITHUB_OUTPUT"
+
+  score:
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: ${{ fromJSON(needs.plan.outputs.list) }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run shard
+        env:
+          SHARD: ${{ matrix.shard }}
+          NSHARDS: ${{ inputs.shards }}
+          LIMIT: ${{ inputs.limit }}
+        run: |
+          echo "runner IP: $(curl -s https://ipinfo.io/ip) $(curl -s https://ipinfo.io/country)"
+          cp babylist-store-signals.csv out.csv
+          python3 -I score_stores.py babylist-shopify-stores.csv out.csv 2> >(tee run.log >&2)
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shard-${{ matrix.shard }}
+          path: |
+            out.csv
+            out-skipped.txt
+            run.log
+          if-no-files-found: ignore
+
+  merge:
+    needs: score
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: shards
+      - name: Merge shard outputs
+        run: |
+          python3 - <<'EOF'
+          import csv, glob
+          src = [r["brand"] for r in csv.DictReader(open("babylist-shopify-stores.csv", newline=""))]
+          fields = csv.DictReader(open("babylist-store-signals.csv", newline="")).fieldnames
+          rows = {}
+          for path in ["babylist-store-signals.csv"] + sorted(glob.glob("shards/*/out.csv")):
+              for r in csv.DictReader(open(path, newline="")):
+                  rows.setdefault(r["brand"], r)
+          ordered = [rows[b] for b in src if b in rows] + [r for b, r in rows.items() if b not in src]
+          with open("babylist-store-signals.csv", "w", newline="") as f:
+              w = csv.DictWriter(f, fieldnames=fields, restval="", extrasaction="ignore")
+              w.writeheader(); w.writerows(ordered)
+          skipped = sorted({l.strip() for p in glob.glob("shards/*/out-skipped.txt") for l in open(p) if l.strip()} - set(rows))
+          open("babylist-store-signals-skipped.txt", "w").write("".join(s + "\n" for s in skipped))
+          print(f"rows: {len(ordered)} of {len(src)} stores, skipped: {len(skipped)}")
+          EOF
+          mkdir -p logs && for d in shards/*/; do [ -f "$d/run.log" ] && cp "$d/run.log" "logs/$(basename $d).log"; done
+      - name: Commit results
+        run: |
+          git config user.name hassan-swym
+          git config user.email 221037267+hassan-swym@users.noreply.github.com
+          git add babylist-store-signals.csv babylist-store-signals-skipped.txt logs
+          git diff --cached --quiet && { echo "nothing to commit"; exit 0; }
+          git commit -m "Update registry-fit signals (run ${{ github.run_id }})" -m "Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>"
+          git pull --rebase && git push
