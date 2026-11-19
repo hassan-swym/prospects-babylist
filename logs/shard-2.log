@@ -1,0 +1,112 @@
+10 already in out.csv, 33 to go
+babyletto (https://babyletto.com)
+  page 1: 250
+  page 2: 34
+  WROTE 1/33 babyletto | ok
+BEIS Travel (https://beistravel.com)
+  page 1: 250
+  page 2: 214
+  WROTE 2/33 BEIS Travel | ok
+Boogie (https://boogiewipes.com)
+  page 1: 41
+  WROTE 3/33 Boogie | ok
+Burt's Bees Baby (https://burtsbeesbaby.com)
+  page 1: 250
+  page 2: 250
+  page 3: 193
+  WROTE 4/33 Burt's Bees Baby | ok
+Ceres Chill (https://www.cereschill.com)
+  page 1: 57
+  WROTE 5/33 Ceres Chill | ok
+Comotomo (https://comotomo.com)
+  page 1: 14
+  WROTE 6/33 Comotomo | ok
+Dapple (https://dapplebaby.com)
+  page 1: 19
+  WROTE 7/33 Dapple | ok
+Dr. Noze Best (https://drnozebest.com)
+  page 1: 24
+  WROTE 8/33 Dr. Noze Best | ok
+ergoPouch (https://www.ergopouch.com)
+  page 1: 250
+  page 2: 36
+  WROTE 9/33 ergoPouch | ok
+Firstride (https://firstridecarrier.com)
+  page 1: 34
+  WROTE 10/33 Firstride | ok
+Goumi Kids (https://goumikids.com)
+  page 1: 108
+  WROTE 11/33 Goumi Kids | ok
+Halo (https://www.halosleep.com)
+  page 1: 250
+  page 2: 250
+  page 3: 250
+  page 4: 23
+  WROTE 12/33 Halo | ok
+House of Noa (https://www.thehouseofnoa.com)
+  page 1: 250
+  page 2: 250
+  page 3: 250
+  page 4: 74
+  WROTE 13/33 House of Noa | ok
+Itzy Ritzy (https://www.itzyritzy.com)
+  WROTE 14/33 Itzy Ritzy | products.json HTTP 403 on page 1
+KeaBabies (https://keababies.com)
+  page 1: 187
+  WROTE 15/33 KeaBabies | ok
+Lalo (https://www.meetlalo.com)
+  page 1: 99
+  WROTE 16/33 Lalo | ok
+lillebaby (https://www.lillebaby.com)
+  page 1: 31
+  WROTE 17/33 lillebaby | ok
+Loulou Lollipop (https://louloulollipop.com)
+  page 1: 250
+  page 2: 144
+  WROTE 18/33 Loulou Lollipop | ok
+Manhattan Toy (https://www.manhattantoy.com)
+  page 1: 250
+  page 2: 69
+  WROTE 19/33 Manhattan Toy | ok
+Moby (https://mobywrap.com)
+  page 1: 56
+  WROTE 20/33 Moby | ok
+Munchkin (https://www.munchkin.com)
+  WROTE 21/33 Munchkin | products.json HTTP 404 on page 1
+Naturepedic (https://www.naturepedic.com)
+  page 1: 116
+  WROTE 22/33 Naturepedic | ok
+Oeuf (https://oeufnyc.com)
+  page 1: 204
+  WROTE 23/33 Oeuf | ok
+Pehr (https://pehr.com)
+  page 1: 234
+  WROTE 24/33 Pehr | ok
+Pumpables (https://pumpables.co)
+  page 1: 22
+  WROTE 25/33 Pumpables | ok
+Ricardo Trading (https://ricardotrading.com)
+  page 1: 120
+  WROTE 26/33 Ricardo Trading | ok
+Slumberkins, Inc. (https://slumberkins.com)
+  page 1: 164
+  WROTE 27/33 Slumberkins, Inc. | ok
+Sorelle (https://sorellefurniture.com)
+  page 1: 121
+  WROTE 28/33 Sorelle | ok
+Tiny Land (https://www.tinylandus.com)
+  page 1: 150
+  WROTE 29/33 Tiny Land | ok
+Triple Paste (https://triplepaste.com)
+  page 1: 8
+  WROTE 30/33 Triple Paste | ok
+Upseat (https://theupseat.com)
+  page 1: 17
+  WROTE 31/33 Upseat | ok
+Willow (https://onewillow.com)
+  page 1: 88
+  WROTE 32/33 Willow | ok
+Zoe (https://zoebaby.com)
+  page 1: 66
+  WROTE 33/33 Zoe | ok
+done

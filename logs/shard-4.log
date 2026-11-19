@@ -1,0 +1,131 @@
+10 already in out.csv, 34 to go
+Baby Trend (https://babytrend.com)
+  429 on https://babytrend.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://babytrend.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 1/34 Baby Trend | products.json HTTP 429 on page 1
+Babysense (https://www.babysensemonitors.com)
+  429 on https://www.babysensemonitors.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://www.babysensemonitors.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 2/34 Babysense | products.json HTTP 429 on page 1
+BIBS (https://bibsworld.com)
+  429 on https://bibsworld.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://bibsworld.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 3/34 BIBS | products.json HTTP 429 on page 1
+Bright Starts (https://www.brightstarts.com)
+  WROTE 4/34 Bright Starts | products.json HTTP 404 on page 1
+Canopy (https://getcanopy.co)
+  429 on https://getcanopy.co/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://getcanopy.co/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 5/34 Canopy | products.json HTTP 429 on page 1
+Citi Collective (https://www.citicollective.com)
+  429 on https://www.citicollective.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://www.citicollective.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 6/34 Citi Collective | products.json HTTP 429 on page 1
+Coterie (https://www.coterie.com)
+  WROTE 7/34 Coterie | products.json HTTP 404 on page 1
+Dermoplast (https://dermoplast.com)
+  429 on https://dermoplast.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://dermoplast.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 8/34 Dermoplast | products.json HTTP 429 on page 1
+DYPER (https://dyper.com)
+  429 on https://dyper.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://dyper.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 9/34 DYPER | products.json HTTP 429 on page 1
+Etta Loves (https://ettaloves.com)
+  429 on https://ettaloves.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://ettaloves.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 10/34 Etta Loves | products.json HTTP 429 on page 1
+Frida Mom (https://frida.com)
+  429 on https://frida.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://frida.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 11/34 Frida Mom | products.json HTTP 429 on page 1
+GROWNSY (https://grownsy.com)
+  429 on https://grownsy.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://grownsy.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 12/34 GROWNSY | products.json HTTP 429 on page 1
+Happy Baby (https://happybabycarriers.com)
+  429 on https://happybabycarriers.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://happybabycarriers.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 13/34 Happy Baby | products.json HTTP 429 on page 1
+Infantino (https://infantino.com)
+  429 on https://infantino.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://infantino.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 14/34 Infantino | products.json HTTP 429 on page 1
+Jool Baby (https://joolbaby.com)
+  429 on https://joolbaby.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://joolbaby.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 15/34 Jool Baby | products.json HTTP 429 on page 1
+Konny (https://konnybaby.com)
+  429 on https://konnybaby.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://konnybaby.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 16/34 Konny | products.json HTTP 429 on page 1
+Larken (https://shoplarken.com)
+  page 1: 34
+  WROTE 17/34 Larken | ok
+Little Seeds (https://littleseeds.com)
+  429 on https://littleseeds.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://littleseeds.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 18/34 Little Seeds | products.json HTTP 429 on page 1
+Lovevery (https://lovevery.com)
+  WROTE 19/34 Lovevery | products.json HTTP 404 on page 1
+Melissa & Doug (https://www.melissaanddoug.com)
+  429 on https://www.melissaanddoug.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://www.melissaanddoug.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 20/34 Melissa & Doug | products.json HTTP 429 on page 1
+Momcozy (https://momcozy.com)
+  429 on https://momcozy.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://momcozy.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 21/34 Momcozy | products.json HTTP 429 on page 1
+My Brest Friend (https://www.mybrestfriend.com)
+  429 on https://www.mybrestfriend.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://www.mybrestfriend.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 22/34 My Brest Friend | products.json HTTP 429 on page 1
+Nivas (https://nivascollection.com)
+  429 on https://nivascollection.com/products.json?limit=250&page=1&country=US, waiting 65s
+  page 1: 247
+  WROTE 23/34 Nivas | ok
+Oogiebear (https://oogiebear.com)
+  429 on https://oogiebear.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://oogiebear.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 24/34 Oogiebear | products.json HTTP 429 on page 1
+Pigeon (https://www.pigeonstore.com)
+  429 on https://www.pigeonstore.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://www.pigeonstore.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 25/34 Pigeon | products.json HTTP 429 on page 1
+Radio Flyer (https://www.radioflyer.com)
+  429 on https://www.radioflyer.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://www.radioflyer.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 26/34 Radio Flyer | products.json HTTP 429 on page 1
+Sarah Wells (https://sarahwellsbags.com)
+  429 on https://sarahwellsbags.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://sarahwellsbags.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 27/34 Sarah Wells | products.json HTTP 429 on page 1
+Snuggle Me Organic (https://snugglemeorganic.com)
+  429 on https://snugglemeorganic.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://snugglemeorganic.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 28/34 Snuggle Me Organic | products.json HTTP 429 on page 1
+Storkcraft (https://www.storkcraft.com)
+  429 on https://www.storkcraft.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://www.storkcraft.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 29/34 Storkcraft | products.json HTTP 429 on page 1
+Toddlekind (https://toddlekind.com)
+  429 on https://toddlekind.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://toddlekind.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 30/34 Toddlekind | products.json HTTP 429 on page 1
+Tula (https://babytula.com)
+  429 on https://babytula.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://babytula.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 31/34 Tula | products.json HTTP 429 on page 1
+Veer (https://goveer.com)
+  429 on https://goveer.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://goveer.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 32/34 Veer | products.json HTTP 429 on page 1
+WonderFold Wagon (https://wonderfold.com)
+  429 on https://wonderfold.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://wonderfold.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 33/34 WonderFold Wagon | products.json HTTP 429 on page 1
+Zutano (https://zutano.com)
+  429 on https://zutano.com/products.json?limit=250&page=1&country=US, waiting 65s
+  429 on https://zutano.com/products.json?limit=250&page=1&country=US, waiting 130s
+  SKIPPED 34/34 Zutano | products.json HTTP 429 on page 1
+done
